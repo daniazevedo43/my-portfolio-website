@@ -6,6 +6,7 @@ import { useState } from 'react';
 
 const kaushan = Kaushan_Script({
     weight: '400',
+    subsets: ["latin"]
 })
 
 export default function Navbar() {
