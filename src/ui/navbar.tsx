@@ -13,16 +13,16 @@ const Navbar = () => {
                 </button>
             </div>
             <div>
-                <a href="" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-8">
+                <a href="/" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-8">
                     Home
                 </a>
-                <a href="" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-8">
+                <a href="/about" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-8">
                     About
                 </a>
-                <a href="" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-8">
+                <a href="/" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-8">
                     Projects
                 </a>
-                <a href="" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white">
+                <a href="/" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white">
                     Contact
                 </a>
             </div>
