@@ -17,9 +17,9 @@ export default function HomePage() {
           />
         </div>
         <div>
-          <p className='text-7xl font-semibold font-display'>Hello!</p>
-          <p className='text-7xl font-semibold font-display'>I'm Daniel</p>
-          <p className='text-2xl font-display'>And I'm a web developer</p>
+          <p className='text-7xl font-semibold font-ubuntu'>Hello!</p>
+          <p className='text-7xl font-semibold font-ubuntu'>I'm Daniel</p>
+          <p className='text-2xl font-ubuntu'>And I'm a web developer</p>
           <div className="mt-10 justify-content">
               <button 
                 onClick={() => window.open('https://github.com/daniazevedo43')} 
