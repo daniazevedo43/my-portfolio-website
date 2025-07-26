@@ -6,7 +6,7 @@ export default function About() {
       className='mt-10'
     >
       <div
-        className='flex flex-col justify-center mx-auto sm:flex-row'
+        className='flex flex-col sm:flex-row justify-center'
       >
         <div className="border border-red-500 md:border-none flex justify-center">
           <Image 
