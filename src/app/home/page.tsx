@@ -5,7 +5,6 @@ import React from 'react'
 
 export default function HomePage() {
   return (
-    <div>
       <div className='flex justify-center items-center space-x-20 mt-20'>
         <div>
           <Image 
@@ -33,6 +32,5 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-    </div>
   )
 }
