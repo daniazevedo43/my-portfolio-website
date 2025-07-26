@@ -6,14 +6,14 @@ import React from 'react'
 export default function HomePage() {
   return (
     <div>
-      <div className='flex justify-center items-center space-x-20 mt-20'>
+      <div className='flex flex-col sm:flex-row justify-center items-center space-x-0 sm:space-x-20 space-y-10 sm:space-y-0 mt-10 sm:mt-20'>
         <div>
           <Image 
-            className='rounded-full'
+            className='rounded-full w-80 w-80 md:w-[400px] h-auto md:h-[400px]'
             src='/home-pic.jpg' 
             alt='Home' 
-            width={420} 
-            height={420} 
+            width={400} 
+            height={400} 
           />
         </div>
         <div>
