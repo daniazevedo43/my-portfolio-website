@@ -5,15 +5,15 @@ export default function About() {
     <div 
       className='mt-10'
     >
-      <div  
-        className='flex justify-center'
+      <div
+        className='flex flex-col justify-center mx-auto sm:flex-row'
       >
-        <div>
+        <div className="border border-red-500 md:border-none flex justify-center">
           <Image 
             src='/about-me-pic.jpg' 
             alt='About' 
-            width={500} 
-            height={500} 
+            width={520} 
+            height={520} 
           />
         </div>
         <div className='m-8'>
