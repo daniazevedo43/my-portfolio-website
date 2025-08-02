@@ -15,8 +15,8 @@ export default function Projects() {
               </div>
               <div className='m-4'>
                 <h2 className='text-2xl font-semibold font-ubuntu'>Tap My Back</h2>
-                <p>Posted: </p>
-                <p>Read more</p>
+                <p className='font-ubuntu mt-3'>Posted: </p>
+                <p className='font-ubuntu mt-7'>Read more</p>
               </div>
           </div>
         </div>
