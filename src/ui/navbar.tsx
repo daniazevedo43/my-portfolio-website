@@ -65,7 +65,7 @@ export default function Navbar() {
                         className={
                             pathname === '/' ?
                             "block mt-4 sm:mt-0 text-white underline" :
-                            "sm:mt-0 text-white"
+                            "block mt-4 sm:mt-0 text-white"
                         }
                     >
                         Home
