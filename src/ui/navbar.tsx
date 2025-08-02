@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <div>
-        <nav className="flex justify-between flex-wrap bg-[#1976d2] p-4">
+        <nav className="flex justify-between flex-wrap bg-[#1976d2] p-4 shadow-lg">
             <Link href="/" className="flex items-center flex-shrink-0 text-white mr-6">
                 <span className={`${kaushan.className} text-xl`}>Daniel Azevedo</span>
             </Link>
