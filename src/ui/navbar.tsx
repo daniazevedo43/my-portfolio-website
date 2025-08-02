@@ -21,19 +21,18 @@ export default function Navbar() {
 
   return (
     <div>
-        <nav className="flex items-center justify-between flex-wrap bg-[#1976d2] p-4">
+        <nav className="flex justify-between flex-wrap bg-[#1976d2] p-4">
             <Link href="/" className="flex items-center flex-shrink-0 text-white mr-6">
                 <span className={`${kaushan.className} text-xl`}>Daniel Azevedo</span>
             </Link>
-            <div className="block lg:hidden">
+            <div className="sm:hidden">
                 <button 
                     onClick={handleClick} 
-                    className="flex items-center px-3 py-2 rounded text-white border-teal-400 hover:text-white hover:border-white"
+                    className="px-3 py-2 text-white"
                 >
                     {!isOpen ? (
                         <svg 
                             className="fill-current h-5 w-5" 
-                            viewBox="0 0 20 20" 
                             xmlns="http://www.w3.org/2000/svg"
                         >
                             <title>Menu</title>
@@ -42,8 +41,7 @@ export default function Navbar() {
                     ) :
                     (
                         <svg 
-                            className="fill-current h-5 w-5" 
-                            viewBox="0 0 20 20"
+                            className="h-5 w-5" 
                         >
                             <title>Close</title>
                             <path 
@@ -59,39 +57,44 @@ export default function Navbar() {
             </div>
             <div className={` ${
                 isOpen ? '' : 'hidden'
-            }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
-            <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
-                <Link 
-                    href="/" 
-                    className={
-                        pathname === '/' ?
-                        "block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-8 underline" :
-                        "block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-8"
-                    }
-                >
-                    Home
-                </Link>
-                <Link 
-                    href="/about" 
-                    className={
-                        pathname === '/about' ?
-                        "block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-8 underline" :
-                        "block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-8"
-                    }
-                >
-                    About
-                </Link>
-                <Link 
-                    href="/" 
-                    className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-8">
-                    Projects
-                </Link>
-                <Link 
-                    href="/" 
-                    className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white"
-                >
-                    Contact
-                </Link>
+            }   w-full sm:inline-flex sm:w-auto`}>
+            <div className='sm:flex-row w-full sm:items-center flex flex-col'>
+                <div className='mr-9'>
+                    <Link 
+                        href="/" 
+                        className={
+                            pathname === '/' ?
+                            "block mt-4 sm:mt-0 text-white underline" :
+                            "sm:mt-0 text-white"
+                        }
+                    >
+                        Home
+                    </Link>
+                </div>
+                <div className='mr-9'>
+                    <Link 
+                        href="/about" 
+                        className={
+                            pathname === '/about' ?
+                            "block mt-4 sm:mt-0 text-white underline" :
+                            "block mt-4 sm:mt-0 text-white"
+                        }
+                    >
+                        About
+                    </Link>
+                </div>
+                <div className='mr-5'>
+                    <Link 
+                        href="/projects" 
+                        className={
+                            pathname === '/projects' ?
+                            "block mt-4 sm:mt-0 text-white underline" :
+                            "block mt-4 sm:mt-0 text-white"
+                        }
+                    >
+                        Projects
+                    </Link>
+                </div>
             </div>
           </div>
         </nav>    
