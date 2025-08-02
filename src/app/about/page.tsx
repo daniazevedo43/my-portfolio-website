@@ -19,8 +19,8 @@ export default function About() {
             />
           </div>
           <div className='mt-4 lg:m-8'>
-            <div className='text-4xl font-semibold font-ubuntu'>
-              <p>About me</p>
+            <div>
+              <p className='text-4xl font-semibold font-ubuntu'>About me</p>
             </div>
             <div className='max-w-150 mt-3 text-xl font-ubuntu'>
               <p>
