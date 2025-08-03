@@ -87,7 +87,7 @@ export default function Navbar() {
                     <Link 
                         href="/projects" 
                         className={
-                            pathname === '/projects' ?
+                            pathname.startsWith('/projects') ?
                             "block mt-4 sm:mt-0 text-white underline" :
                             "block mt-4 sm:mt-0 text-white"
                         }
