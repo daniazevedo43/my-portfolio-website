@@ -2,6 +2,15 @@ import Link from 'next/link'
 import React from 'react'
 
 export default function Projects() {
+  
+  const postedDate = (date: Date) => {
+    const month = new Intl.DateTimeFormat("en-US", { month: 'long' }).format(date);
+    const day = date.getDate(); 
+    const year = date.getFullYear(); 
+
+    return `${month}, ${day} ${year}`;
+  }
+
   return (
     <div className='m-10 justify-items-center'>
         <div className='flex justify-center'>
@@ -83,7 +92,7 @@ export default function Projects() {
               </div>
               <div className='m-3'>
                 <p className='text-2xl font-semibold font-ubuntu'>Tap My Back</p>
-                <p className='font-ubuntu mt-3'>Posted: </p>
+                <p className='font-ubuntu mt-3'>Posted: {postedDate(new Date(2025, 7, 3))}</p>
                 <div className='mt-7'>
                   <Link href="/projects/tap-my-back" className='font-ubuntu text-[#1976d2] hover:underline w-auto'>
                     Read more
