@@ -28,8 +28,12 @@ export default function Projects() {
               </div>
               <div className='m-3'>
                 <p className='text-2xl font-semibold font-ubuntu'>Stories</p>
-                <p className='font-ubuntu mt-3'>Posted: </p>
-                <p className='font-ubuntu mt-7'>Read more</p>
+                <p className='font-ubuntu mt-3'>Posted: {postedDate(new Date(2025, 7, 14))}</p>
+                <div className='mt-7'>
+                  <Link href="/projects/stories" className='font-ubuntu text-[#1976d2] hover:underline w-auto'>
+                    Read more
+                  </Link>
+                </div>
               </div>
           </div>
 
@@ -44,8 +48,12 @@ export default function Projects() {
               </div>
               <div className='m-3'>
                 <p className='text-2xl font-semibold font-ubuntu'>LimpiezApp</p>
-                <p className='font-ubuntu mt-3'>Posted: </p>
-                <p className='font-ubuntu mt-7'>Read more</p>
+                <p className='font-ubuntu mt-3'>Posted: {postedDate(new Date(2025, 7, 14))}</p>
+                <div className='mt-7'>
+                  <Link href="/projects/limpiezapp" className='font-ubuntu text-[#1976d2] hover:underline w-auto'>
+                    Read more
+                  </Link>
+                </div>
               </div>
           </div>
 
@@ -60,8 +68,12 @@ export default function Projects() {
               </div>
               <div className='m-3'>
                 <p className='text-2xl font-semibold font-ubuntu'>Timesheets</p>
-                <p className='font-ubuntu mt-3'>Posted: </p>
-                <p className='font-ubuntu mt-7'>Read more</p>
+                <p className='font-ubuntu mt-3'>Posted: {postedDate(new Date(2025, 7, 14))}</p>
+                <div className='mt-7'>
+                  <Link href="/projects/timesheets" className='font-ubuntu text-[#1976d2] hover:underline w-auto'>
+                    Read more
+                  </Link>
+                </div>
               </div>
           </div>
 
@@ -76,8 +88,12 @@ export default function Projects() {
               </div>
               <div className='m-3'>
                 <p className='text-2xl font-semibold font-ubuntu'>GrantsFinder</p>
-                <p className='font-ubuntu mt-3'>Posted: </p>
-                <p className='font-ubuntu mt-7'>Read more</p>
+                <p className='font-ubuntu mt-3'>Posted: {postedDate(new Date(2025, 7, 14))}</p>
+                <div className='mt-7'>
+                  <Link href="/projects/grantsfinder" className='font-ubuntu text-[#1976d2] hover:underline w-auto'>
+                    Read more
+                  </Link>
+                </div>
               </div>
           </div>
 
