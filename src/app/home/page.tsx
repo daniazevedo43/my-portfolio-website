@@ -6,10 +6,10 @@ import React from 'react'
 export default function HomePage() {
   return (
     <div>
-      <div className='flex flex-col sm:flex-row justify-center items-center space-x-0 sm:space-x-20 space-y-10 sm:space-y-0 mt-10 sm:mt-20'>
+      <div className='flex flex-col lg:flex-row justify-center items-center space-x-0 lg:space-x-20 space-y-10 lg:space-y-10 mt-10 sm:mt-20'>
         <div>
           <Image 
-            className='rounded-full w-80 w-80 md:w-[400px] h-auto md:h-[400px]'
+            className='rounded-full w-67 w-67 md:w-[400px] h-auto md:h-[400px]'
             src='/home-pic.jpg' 
             alt='Home' 
             width={400} 
@@ -17,19 +17,57 @@ export default function HomePage() {
           />
         </div>
         <div>
-          <p className='text-7xl font-semibold font-ubuntu'>Hello!</p>
-          <p className='text-7xl font-semibold font-ubuntu'>I'm Daniel</p>
-          <p className='text-2xl font-ubuntu'>And I'm a web developer</p>
-          <div className="mt-10 justify-content">
-              <button 
-                onClick={() => window.open('https://github.com/daniazevedo43')} 
-                className="flex bg-black hover:bg-[#3a3a3a] text-white py-2 px-4 h-12 rounded-lg cursor-pointer items-center duration-300"
-              >
-                <svg className="mr-1 w-6 h-6 text-white-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                  <path fillRule="evenodd" d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z" clipRule="evenodd"/>
-                </svg>  
-                My Github
-              </button> 
+          <p className='text-5xl sm:text-7xl font-semibold font-ubuntu'>Hello!</p>
+          <p className='text-5xl sm:text-7xl font-semibold font-ubuntu'>I'm Daniel</p>
+          <p className='text-1xl sm:text-2xl font-ubuntu'>And I'm a web developer</p>
+          <div className='flex justify-content space-x-5 mt-11'>
+            <a 
+              href="https://github.com/daniazevedo43" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className='transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110'
+            >
+              <svg className='h-9 w-9' viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+                <g id="SVGRepo_iconCarrier"> 
+                    <defs></defs>
+                  <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                  <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#000000">
+                  <g id="icons" transform="translate(56.000000, 160.000000)"> 
+                    <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]">
+                    </path>
+                  </g></g></g>
+                </g>
+              </svg>
+            </a>
+            <a 
+              href="https://www.linkedin.com/in/daniel-azevedo-b986512a7/"
+              className='transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110'
+            >
+              <svg className='h-9 w-9' fill="#000000" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+                <g id="SVGRepo_iconCarrier"> 
+                  <title>linkedin</title>
+                  <path d="M28.778 1.004h-25.56c-0.008-0-0.017-0-0.027-0-1.199 0-2.172 0.964-2.186 2.159v25.672c0.014 1.196 0.987 2.161 2.186 2.161 0.010 0 0.019-0 0.029-0h25.555c0.008 0 0.018 0 0.028 0 1.2 0 2.175-0.963 2.194-2.159l0-0.002v-25.67c-0.019-1.197-0.994-2.161-2.195-2.161-0.010 0-0.019 0-0.029 0h0.001zM9.9 26.562h-4.454v-14.311h4.454zM7.674 10.293c-1.425 0-2.579-1.155-2.579-2.579s1.155-2.579 2.579-2.579c1.424 0 2.579 1.154 2.579 2.578v0c0 0.001 0 0.002 0 0.004 0 1.423-1.154 2.577-2.577 2.577-0.001 0-0.002 0-0.003 0h0zM26.556 26.562h-4.441v-6.959c0-1.66-0.034-3.795-2.314-3.795-2.316 0-2.669 1.806-2.669 3.673v7.082h-4.441v-14.311h4.266v1.951h0.058c0.828-1.395 2.326-2.315 4.039-2.315 0.061 0 0.121 0.001 0.181 0.003l-0.009-0c4.5 0 5.332 2.962 5.332 6.817v7.855z"></path>
+                </g>
+              </svg>
+            </a>
+            <a 
+              href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHwQbQPhkmrVfGxtbsrcDjDtpFKMgdTpDZKDTxLfdlxNkrcnBMqFWswHHmbHVRRbPRXVzlb" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className='transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110'
+            >
+              <svg className='h-9 w-9' fill="#000000" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+                <g id="SVGRepo_iconCarrier"> 
+                  <path d="M32 6v20c0 1.135-0.865 2-2 2h-2v-18.151l-12 8.62-12-8.62v18.151h-2c-1.135 0-2-0.865-2-2v-20c0-0.568 0.214-1.068 0.573-1.422 0.359-0.365 0.859-0.578 1.427-0.578h0.667l13.333 9.667 13.333-9.667h0.667c0.568 0 1.068 0.214 1.427 0.578 0.359 0.354 0.573 0.854 0.573 1.422z"></path>
+                </g>
+              </svg>
+            </a>
           </div>
         </div>
       </div>
