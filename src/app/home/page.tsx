@@ -55,16 +55,19 @@ export default function HomePage() {
               </svg>
             </a>
             <a 
-              href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHwQbQPhkmrVfGxtbsrcDjDtpFKMgdTpDZKDTxLfdlxNkrcnBMqFWswHHmbHVRRbPRXVzlb" 
+              href="mailto:daniazevedo685@gmail.com" 
               target="_blank" 
               rel="noopener noreferrer"
               className='transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110'
             >
-              <svg className='h-9 w-9' fill="#000000" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-                <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
-                <g id="SVGRepo_iconCarrier"> 
-                  <path d="M32 6v20c0 1.135-0.865 2-2 2h-2v-18.151l-12 8.62-12-8.62v18.151h-2c-1.135 0-2-0.865-2-2v-20c0-0.568 0.214-1.068 0.573-1.422 0.359-0.365 0.859-0.578 1.427-0.578h0.667l13.333 9.667 13.333-9.667h0.667c0.568 0 1.068 0.214 1.427 0.578 0.359 0.354 0.573 0.854 0.573 1.422z"></path>
+              <svg className='h-9 w-9' viewBox="0 0 12 12" enable-background="new 0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <polygon fill="#1D1D1B" points="6,6.3818359 12,2.0180664 12,1 0,1 0,2.0181274 "></polygon> 
+                    <polygon fill="#1D1D1B" points="6,7.6181641 0,3.2543335 0,11 12,11 12,3.2542725 "></polygon> 
+                  </g> 
                 </g>
               </svg>
             </a>
