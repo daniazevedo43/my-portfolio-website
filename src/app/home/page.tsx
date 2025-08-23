@@ -60,9 +60,9 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className='transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110'
             >
-              <svg className='h-9 w-9' viewBox="0 0 12 12" enable-background="new 0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <svg className='h-9 w-9' viewBox="0 0 12 12" enableBackground="new 0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                 <g id="SVGRepo_iconCarrier">
                   <g>
                     <polygon fill="#1D1D1B" points="6,6.3818359 12,2.0180664 12,1 0,1 0,2.0181274 "></polygon> 
