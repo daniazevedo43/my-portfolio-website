@@ -27,8 +27,8 @@ export default function Projects() {
                 />
               </div>
               <div className='m-3'>
-                <p className='text-2xl font-semibold font-ubuntu'>Stories</p>
-                <p className='font-ubuntu mt-3'>Posted: {postedDate(new Date(2025, 7, 14))}</p>
+                <p className='text-2xl font-semibold font-ubuntu dark:text-black'>Stories</p>
+                <p className='font-ubuntu mt-3 dark:text-black'>Posted: {postedDate(new Date(2025, 7, 14))}</p>
                 <div className='mt-7'>
                   <Link href="/projects/stories" className='font-ubuntu text-[#1976d2] hover:underline w-auto'>
                     Read more
@@ -47,8 +47,8 @@ export default function Projects() {
                 />
               </div>
               <div className='m-3'>
-                <p className='text-2xl font-semibold font-ubuntu'>LimpiezApp</p>
-                <p className='font-ubuntu mt-3'>Posted: {postedDate(new Date(2025, 7, 14))}</p>
+                <p className='text-2xl font-semibold font-ubuntu dark:text-black'>LimpiezApp</p>
+                <p className='font-ubuntu mt-3 dark:text-black'>Posted: {postedDate(new Date(2025, 7, 14))}</p>
                 <div className='mt-7'>
                   <Link href="/projects/limpiezapp" className='font-ubuntu text-[#1976d2] hover:underline w-auto'>
                     Read more
@@ -67,8 +67,8 @@ export default function Projects() {
                 />
               </div>
               <div className='m-3'>
-                <p className='text-2xl font-semibold font-ubuntu'>Timesheets</p>
-                <p className='font-ubuntu mt-3'>Posted: {postedDate(new Date(2025, 7, 14))}</p>
+                <p className='text-2xl font-semibold font-ubuntu dark:text-black'>Timesheets</p>
+                <p className='font-ubuntu mt-3 dark:text-black'>Posted: {postedDate(new Date(2025, 7, 14))}</p>
                 <div className='mt-7'>
                   <Link href="/projects/timesheets" className='font-ubuntu text-[#1976d2] hover:underline w-auto'>
                     Read more
@@ -87,8 +87,8 @@ export default function Projects() {
                 />
               </div>
               <div className='m-3'>
-                <p className='text-2xl font-semibold font-ubuntu'>GrantsFinder</p>
-                <p className='font-ubuntu mt-3'>Posted: {postedDate(new Date(2025, 7, 14))}</p>
+                <p className='text-2xl font-semibold font-ubuntu dark:text-black'>GrantsFinder</p>
+                <p className='font-ubuntu mt-3 dark:text-black'>Posted: {postedDate(new Date(2025, 7, 14))}</p>
                 <div className='mt-7'>
                   <Link href="/projects/grantsfinder" className='font-ubuntu text-[#1976d2] hover:underline w-auto'>
                     Read more
@@ -107,8 +107,8 @@ export default function Projects() {
                 />
               </div>
               <div className='m-3'>
-                <p className='text-2xl font-semibold font-ubuntu'>Tap My Back</p>
-                <p className='font-ubuntu mt-3'>Posted: {postedDate(new Date(2025, 7, 3))}</p>
+                <p className='text-2xl font-semibold font-ubuntu dark:text-black'>Tap My Back</p>
+                <p className='font-ubuntu mt-3 dark:text-black'>Posted: {postedDate(new Date(2025, 7, 3))}</p>
                 <div className='mt-7'>
                   <Link href="/projects/tap-my-back" className='font-ubuntu text-[#1976d2] hover:underline w-auto'>
                     Read more
