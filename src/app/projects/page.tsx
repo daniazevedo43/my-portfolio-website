@@ -22,6 +22,26 @@ export default function Projects() {
           >
               <div className='m-3 border border-gray-200'>
                 <img 
+                  src='/sprint-manager.png' 
+                  className='h-32 w-full'
+                />
+              </div>
+              <div className='m-3'>
+                <p className='text-2xl font-semibold font-ubuntu dark:text-black'>Sprint Manager</p>
+                <p className='font-ubuntu mt-3 dark:text-black'>Posted: {postedDate(new Date(2025, 8, 6))}</p>
+                <div className='mt-7'>
+                  <Link href="/projects/sprint-manager" className='font-ubuntu text-[#1976d2] hover:underline w-auto'>
+                    Read more
+                  </Link>
+                </div>
+              </div>
+          </div>
+
+          <div 
+            className='flex flex-col bg-[#FFFFFF] mt-12 w-75 shadow-lg'
+          >
+              <div className='m-3 border border-gray-200'>
+                <img 
                   src='/stories.png' 
                   className='h-32 w-full'
                 />
